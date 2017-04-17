@@ -1,0 +1,57 @@
+body {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* home */
+.home-title {
+	height: 300px;
+}
+.home-header-container{
+	margin: 100px auto;
+}
+.btn-login{
+	float: right;
+}
+.home-title span {
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	margin-left: 200px;
+}
+.home-icon {
+	height: auto;
+	left: 12%;
+}
+.home-icon .icon{
+	height: 250px;
+	margin: 30px 15px;
+	position: relative;
+}
+.icon-detail {
+	height: 150px;
+	margin: 10px auto;
+}
+.home-icon .icon-item {
+	position: absolute;
+	font-size: 150px;
+	margin: 20px 25px;
+	color: black;
+}
+.notice {
+	font-size: 14px;
+	color: red;
+	font-weight: initial;
+}
+
+.hidden-tav {
+	display: none;
+	z-index: 100;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 10px;
+	text-align: center;
+}

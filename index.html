@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title> Share Mystery </title>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="home-title col-md-12">
+					<div class="home-header-container"></div>
+					<span>Chia sẻ những gì bạn muốn...</span>
+					<button type="button" class="btn btn-success btn-login clearfix" data-toggle="modal" data-target="#login"">Đăng nhập nào !</button>
+				</div>
+				<div class="home-icon col-md-12">
+					<div id="item-1" class="col-md-3 icon">
+						<div class="icon-detail">
+							<a  href="#"><i class="glyphicon glyphicon-globe icon-item"></i></a>
+						</div>
+							<div id="item-1-hidden" class="hidden-tav">
+								<p>Tán gẫu linh tinh</p>
+								<span> Hạt giống tâm thần</span>
+							</div>
+					</div>
+					<div id="item-2" class="col-md-3 icon">
+						<div class="icon-detail">
+							<a  href="#"><i class="glyphicon glyphicon-globe icon-item"></i></a>
+						</div>
+							<div id="item-2-hidden" class="hidden-tav">
+								<p>Tình yêu tình báo</p>
+								<span>10+, Chuyện thầm kín</span>
+							</div>
+					</div>
+					<div id="item-3" class="col-md-3 icon">
+						<div class="icon-detail">
+							<a  href="#"><i class="glyphicon glyphicon-globe icon-item"></i></a>
+						</div>
+							<div id="item-3-hidden" class="hidden-tav">
+								<p>FA, tìm bạn</p>
+								<span>Không có gì quý hơn độc lập tự do !</span>
+							</div>
+					</div>
+				</div>
+				<div class="modal fade" id="login" role="dialog">
+				    <div class="modal-dialog">
+						 <div class="modal-content">
+						  	<div class="modal-header">
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					          <h4 class="modal-title">Tạo tài khoản để chém gió</h4>
+				        	</div>
+				        	<div class="modal-body">
+							       <form class="form-horizontal">
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="email">Email:</label>
+									    <div class="col-sm-10">
+									      <input type="email" class="form-control" id="email" placeholder="Enter email">
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="pwd">Password:</label>
+									    <div class="col-sm-10"> 
+									      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <div class="checkbox">
+									        <label><input type="checkbox"> Remember me</label>
+									      </div>
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <button type="submit" class="btn btn-default">Submit</button>
+									    </div>
+									  </div>
+									</form>
+							</div>		
+				      </div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+</body>
+</html>
